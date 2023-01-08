@@ -67,9 +67,8 @@ Copy this in ~/Arduino/libraries/TFT_eSPI/User_Setup.h <br>
 ## Load first Example
 ```
 wget https://macsbug.files.wordpress.com/2022/08/life_game_esp32_2432s028.zip_-1.pdf -O tmp.zip 
-unzip -o tmp.zip *.ino *.h -d ~/Arduino/ 
+unzip -o tmp.zip Life_Game_ESP32_2432S028/lgfx_ESP32_2432S028.h Life_Game_ESP32_2432S028/Life_Game_ESP32_2432S028.ino -d ~/Arduino/ 
 rm tmp.zip
-rm -rf ~/Arduino/__MACOSX/
 find ~/Arduino/* -type f -iname 'lgfx_ESP32_2432S028.h' -exec sed -i 's/SPI2_HOST/HSPI_HOST/g' '{}' \;
 find ~/Arduino/Life_Game*
 ```  
