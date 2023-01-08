@@ -8,10 +8,10 @@ Info Files "2.8inch_ESP32-2432S028R.zip" from download link: "http://www.jczn168
 with passwort: "jczn1688" <br>
 
 ## How to install on Linux
-`wget https://downloads.arduino.cc/arduino-ide/arduino-ide_2.0.2_Linux_64bit.AppImage` <br>
-`mv arduino-ide_2.0.2_Linux_64bit.AppImage ~/Schreibtisch` <br>
-`chmod u+x ~/Schreibtisch/arduino-ide_2.0.2_Linux_64bit.AppImage` <br>
-Starten im Terminal im hintergrund mit <br>`~/Schreibtisch/arduino-ide_2.0.2_Linux_64bit.AppImage & disown` <br>
+`wget https://downloads.arduino.cc/arduino-ide/arduino-ide_2.0.3_Linux_64bit.AppImage` <br>
+`mv arduino-ide_2.0.3_Linux_64bit.AppImage ~/Schreibtisch` <br>
+`chmod u+x ~/Schreibtisch/arduino-ide_2.0.3_Linux_64bit.AppImage` <br>
+Starten im Terminal im hintergrund mit <br>`~/Schreibtisch/arduino-ide_2.0.3_Linux_64bit.AppImage & disown` <br>
 Settings in Arduino IDE:<br>
 Menü -> File -> Preferences -> Language -> English <br>
 Menü -> File -> Preferences -> Show verbose output during compile und upload -> check <br>
