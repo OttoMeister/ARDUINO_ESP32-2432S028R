@@ -8,6 +8,7 @@ Info Files "2.8inch_ESP32-2432S028R.zip" from download link: "http://www.jczn168
 with passwort: "jczn1688" <br>
 
 ## How to install on Linux
+`rm -rf ~/Schreibtisch/arduino-ide* ~/.arduinoIDE ~/.arduino15 ~/.config/arduino* ~/.config/Arduino* ~/Arduino`<br>
 `wget https://downloads.arduino.cc/arduino-ide/arduino-ide_2.0.3_Linux_64bit.AppImage` <br>
 `mv arduino-ide_2.0.3_Linux_64bit.AppImage ~/Schreibtisch` <br>
 `chmod u+x ~/Schreibtisch/arduino-ide_2.0.3_Linux_64bit.AppImage` <br>
