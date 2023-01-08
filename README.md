@@ -8,10 +8,10 @@ Info Files "2.8inch_ESP32-2432S028R.zip" from download link: "http://www.jczn168
 with passwort: "jczn1688" <br>
 
 ## How to install on Linux
-wget https://downloads.arduino.cc/arduino-ide/arduino-ide_2.0.2_Linux_64bit.AppImage <br>
-mv arduino-ide_2.0.2_Linux_64bit.AppImage ~/Schreibtisch <br>
-chmod u+x ~/Schreibtisch/arduino-ide_2.0.2_Linux_64bit.AppImage <br>
--Starten im Terminal im hintergrund mit "~/Schreibtisch/arduino-ide_2.0.2_Linux_64bit.AppImage & disown" <br>
+`wget https://downloads.arduino.cc/arduino-ide/arduino-ide_2.0.2_Linux_64bit.AppImage` <br>
+`mv arduino-ide_2.0.2_Linux_64bit.AppImage ~/Schreibtisch` <br>
+`chmod u+x ~/Schreibtisch/arduino-ide_2.0.2_Linux_64bit.AppImage` <br>
+-Starten im Terminal im hintergrund mit <br>`~/Schreibtisch/arduino-ide_2.0.2_Linux_64bit.AppImage & disown` <br>
 #Einstellungen <br>
 Menü -> File -> Preferences -> Language -> English <br>
 Menü -> File -> Preferences -> Show verbose output during compile und upload -> check <br>
@@ -23,14 +23,14 @@ Libary Manager -> TFT_eSPI -> Suchen und Installieren  LovyanGFX by lovyan03 <br
 Bords Manager -> ESP32 suchen und esp32 by Espressif Sytems instalieren <br>
 Tools -> Board -> esp32 -> ESP32_DEV_Module auswählen <br>
 Tools -> Port -> /dev/ttyACM0 auswählen -> OK <br>
-_ Upload Speed: “921600” (Win) <br>
-_ CPU Frequency : “240MHz (WiFi/BT)” <br>
-_ Flash Frequency : “80MHz” <br>
-_ Flash Mode : “QIO” or “DIO” <br>
-_ Flash Size : “4MB (32Mb)” <br>
-_ Partition Scheme : “Default 4MB with spiffs (1.2MB APP/1.5MB SPIFFS)” <br>
-_ Core Degug Level : “Verbose” <br>
-_ PSRAM : “Disabled” <br>
+-Upload Speed: “921600” (Win) <br>
+-CPU Frequency : “240MHz (WiFi/BT)” <br>
+-Flash Frequency : “80MHz” <br>
+-Flash Mode : “QIO” or “DIO” <br>
+-Flash Size : “4MB (32Mb)” <br>
+-Partition Scheme : “Default 4MB with spiffs (1.2MB APP/1.5MB SPIFFS)” <br>
+-Core Degug Level : “Verbose” <br>
+-PSRAM : “Disabled” <br>
 
 ## Load first Example
 wget https://macsbug.files.wordpress.com/2022/08/life_game_esp32_2432s028.zip_-1.pdf -O lifegame.zip && unzip  lifegame.zip -d ~/Arduino/ && rm  lifegame.zip && rm -rf ~/Arduino/__MACOSX/  <br>
