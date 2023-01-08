@@ -34,7 +34,8 @@ Tools -> Port -> /dev/ttyACM0 auswählen -> OK <br>
 
 ## Prepear TFT_eSPI Libary
 Copy this in ~/Arduino/libraries/TFT_eSPI/User_Setup.h <br>
-```#define ILI9341_2_DRIVER    
+```
+#define ILI9341_2_DRIVER    
 #define TFT_WIDTH  240
 #define TFT_HEIGHT 320
 #define TFT_BL   21           
@@ -56,15 +57,12 @@ Copy this in ~/Arduino/libraries/TFT_eSPI/User_Setup.h <br>
 #define SMOOTH_FONT
 #define SPI_FREQUENCY  55000000 
 #define SPI_READ_FREQUENCY  20000000
-#define SPI_TOUCH_FREQUENCY  2500000```
-
-
-
-
-
-
+#define SPI_TOUCH_FREQUENCY  2500000
+```
 ## Load first Example
-wget https://macsbug.files.wordpress.com/2022/08/life_game_esp32_2432s028.zip_-1.pdf -O lifegame.zip && unzip  lifegame.zip -d ~/Arduino/ && rm  lifegame.zip && rm -rf ~/Arduino/__MACOSX/  <br>
+```
+wget https://macsbug.files.wordpress.com/2022/08/life_game_esp32_2432s028.zip_-1.pdf -O lifegame.zip && unzip  lifegame.zip -d ~/Arduino/ && rm  lifegame.zip && rm -rf ~/Arduino/__MACOSX/
+```  
 Menü -> File -> Open -> Life_Game_ESP32_2432S028 -> Life_Game_ESP32_2432S028.ino <br>
 ZEILE 13 von lgfx_ESP32_2432S028.h: SPI2_HOST in HSPI_HOST ändern <br>
 Compile und Upload -> BINGO <br>
