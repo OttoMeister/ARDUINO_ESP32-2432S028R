@@ -66,8 +66,9 @@ Copy this in ~/Arduino/libraries/TFT_eSPI/User_Setup.h <br>
 ```
 ## Load first Example
 ```
-wget https://macsbug.files.wordpress.com/2022/08/life_game_esp32_2432s028.zip_-1.pdf -O lifegame.zip && unzip  lifegame.zip -d ~/Arduino/ && rm  lifegame.zip && rm -rf ~/Arduino/__MACOSX/ && rm ~/Arduino/Life_Game_ESP32_2432S028/.DS_Store 
+rm -rf ~/Arduino/Life_Game_* ~/Arduino/__MACOSX*
+wget https://macsbug.files.wordpress.com/2022/08/life_game_esp32_2432s028.zip_-1.pdf -O lifegame.zip && unzip  lifegame.zip -d ~/Arduino/ && rm  lifegame.zip && rm -rf ~/Arduino/__MACOSX/ && rm ~/Arduino/Life_Game_ESP32_2432S028/.DS_Store && ls -l ~/Arduino/Life_Game_*
 ```  
 Menü -> File -> Open -> Life_Game_ESP32_2432S028 -> Life_Game_ESP32_2432S028.ino <br>
-ZEILE 13 von lgfx_ESP32_2432S028.h: SPI2_HOST in HSPI_HOST ändern <br>
+New first line in lgfx_ESP32_2432S028.h: #define SPI2_HOST HSPI_HOST<br>
 Compile und Upload -> BINGO <br>
