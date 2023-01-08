@@ -1,23 +1,23 @@
-# ARDUINO_ESP32-2432S028R
+# ARDUINO IDE 2.0.2 mit ESP32-2432S028R
 ESP32 with 2.8inch 240*320 LCD TFT Module and Touch 
 
+## General Information
+https://www.aliexpress.com/item/1005004502250619.html
+https://macsbug.wordpress.com/2022/08/17/esp32-2432s028/
+Info Files "2.8inch_ESP32-2432S028R.zip" from download link:http://www.jczn1688.com/zlxz with passwort: "jczn1688"
+
+## How to install on Linux
 
 
 
-
-#ARDUINO IDE 2.0.2 mit ESP32-2432S028R
-#2.8inch 240*320 LCD TFT Module With Touch 
-#https://www.aliexpress.com/item/1005004502250619.html
-#https://macsbug.wordpress.com/2022/08/17/esp32-2432s028/
-#info Files "2.8inch_ESP32-2432S028R.zip" 
-#ESP32-2432S028R download link:http://www.jczn1688.com/zlxz
-#Download passwort: jczn1688
 wget https://downloads.arduino.cc/arduino-ide/arduino-ide_2.0.2_Linux_64bit.AppImage
+
 mv arduino-ide_2.0.2_Linux_64bit.AppImage ~/Schreibtisch
+
 chmod u+x ~/Schreibtisch/arduino-ide_2.0.2_Linux_64bit.AppImage
-# Starten im Terminal im hintergrund
-~/Schreibtisch/arduino-ide_2.0.2_Linux_64bit.AppImage & disown
-# Einstellungen
+
+-Starten im Terminal im hintergrund mit "~/Schreibtisch/arduino-ide_2.0.2_Linux_64bit.AppImage & disown"
+#Einstellungen
 Menü -> File -> Preferences -> Language -> English
 Menü -> File -> Preferences -> Show verbose output during compile und upload -> check
 Menü -> File -> Preferences -> Compiler warnings -> Default
