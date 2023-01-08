@@ -1,11 +1,9 @@
-// ARDUINO IDE 2.0.2 mit ESP32-2432S028R
-// 2.8 inch 240*320 LCD TFT Module With Touch 
-// TFT_eSPI by Bodmer and ARDUINO IDE 2.0.2 with ESP32-2432S028
-
-// https://en.wikipedia.org/wiki/Boids
-// https://wiki.edu.vn/wiki29/2021/11/17/beflockung-verhalten-wikipedia/
-
 /*
+2.8 inch 240*320 LCD TFT Module With Touch 
+TFT_eSPI by Bodmer and ARDUINO IDE 2.0.2 with ESP32-2432S028
+
+https://en.wikipedia.org/wiki/Boids
+https://wiki.edu.vn/wiki29/2021/11/17/beflockung-verhalten-wikipedia/
 write update_fish() with 3 laws:
 separation: steer to avoid crowding local flockmates
 alignment: steer towards the average heading of local flockmates
