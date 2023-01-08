@@ -66,10 +66,10 @@ Copy this in ~/Arduino/libraries/TFT_eSPI/User_Setup.h <br>
 ```
 ## Load first Example
 ```
-wget https://macsbug.files.wordpress.com/2022/08/life_game_esp32_2432s028.zip_-1.pdf -O lifegame.zip 
-unzip -o lifegame.zip *.ino *.h -d ~/Arduino/ 
-rm  lifegame.zip 
-ls -l ~/Arduino/Life_Game*
+wget https://macsbug.files.wordpress.com/2022/08/life_game_esp32_2432s028.zip_-1.pdf -O tmp.zip 
+unzip -o tmp.zip *.ino *.h -d ~/Arduino/ 
+rm tmp.zip 
+find ~/Arduino/Life_Game*
 ```  
 Menü -> File -> Open -> Life_Game_ESP32_2432S028 -> Life_Game_ESP32_2432S028.ino <br>
 New first line in lgfx_ESP32_2432S028.h: #define SPI2_HOST HSPI_HOST<br>
