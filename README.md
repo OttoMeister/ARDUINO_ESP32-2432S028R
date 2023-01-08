@@ -28,14 +28,14 @@ Libary Manager -> TFT_eSPI -> Suchen und Installieren NTPClient by Fabrice Weinb
 Bords Manager -> ESP32 suchen und esp32 by Espressif Sytems instalieren <br>
 Tools -> Board -> esp32 -> ESP32_DEV_Module auswählen <br>
 Tools -> Port -> /dev/ttyACM0 auswählen -> OK <br>
--Upload Speed: “921600” (Win) <br>
 -CPU Frequency : “240MHz (WiFi/BT)” <br>
+-Core Degug Level : “Verbose” <br>
 -Flash Frequency : “80MHz” <br>
 -Flash Mode : “QIO” or “DIO” <br>
 -Flash Size : “4MB (32Mb)” <br>
 -Partition Scheme : “Default 4MB with spiffs (1.2MB APP/1.5MB SPIFFS)” <br>
--Core Degug Level : “Verbose” <br>
 -PSRAM : “Disabled” <br>
+-Upload Speed: “921600” (Win) <br>
 
 ## Prepear TFT_eSPI Libary
 Copy this in ~/Arduino/libraries/TFT_eSPI/User_Setup.h <br>
