@@ -16,12 +16,7 @@ Settings in Arduino IDE:<br>
 Menü -> File -> Preferences -> Language -> English <br>
 Menü -> File -> Preferences -> Show verbose output during compile und upload -> check <br>
 Menü -> File -> Preferences -> Compiler warnings -> Default <br>
-Menü -> File -> Preferences -> Additional URLs -> https://dl.espressif.com/dl/package_esp32_index.json <br>
-Menü -> File -> Preferences -> Additional URLs -> 
-https://<!--This is a comment-->dl.espressif.com/dl/<!--This is, too-->package_esp32_index.json
-<br>
-
-
+Menü -> File -> Preferences -> Additional URLs -> https://<!--This is a comment-->dl.espressif.com/dl/<!--This is, too-->package_esp32_index.json <br>
 Menü -> File -> Preferences -> OK <br>
 Libary Manager -> TFT_eSPI -> Suchen und Installieren  TFT_eSPI by Bodmer <br>
 Libary Manager -> TFT_eSPI -> Suchen und Installieren  LovyanGFX by lovyan03 <br>
