@@ -11,8 +11,8 @@ with passwort: "jczn1688" <br>
 `wget https://downloads.arduino.cc/arduino-ide/arduino-ide_2.0.2_Linux_64bit.AppImage` <br>
 `mv arduino-ide_2.0.2_Linux_64bit.AppImage ~/Schreibtisch` <br>
 `chmod u+x ~/Schreibtisch/arduino-ide_2.0.2_Linux_64bit.AppImage` <br>
--Starten im Terminal im hintergrund mit <br>`~/Schreibtisch/arduino-ide_2.0.2_Linux_64bit.AppImage & disown` <br>
-#Einstellungen <br>
+Starten im Terminal im hintergrund mit <br>`~/Schreibtisch/arduino-ide_2.0.2_Linux_64bit.AppImage & disown` <br>
+Einstellungen <br>
 Menü -> File -> Preferences -> Language -> English <br>
 Menü -> File -> Preferences -> Show verbose output during compile und upload -> check <br>
 Menü -> File -> Preferences -> Compiler warnings -> Default <br>
