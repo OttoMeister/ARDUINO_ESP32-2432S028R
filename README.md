@@ -86,4 +86,4 @@ Compile und Upload -> BINGO <br>
 
 ## To do
 
-Touch screen is not working with TFT_eSPI Libary. Sadly :(
+Touch screen is not working with TFT_eSPI Lib. Sadly :(
