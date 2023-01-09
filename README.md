@@ -39,7 +39,7 @@ Tools -> Port -> /dev/ttyACM0 auswählen -> OK <br>
 
 
 ## Prepear LovyanGFX Libary
-Copy lgfx_ESP32_2432S028.h to yout local dirctrory and include `#include "lgfx_ESP32_2432S028.h"`
+Copy lgfx_ESP32_2432S028.h to your local dirctrory and include `#include "lgfx_ESP32_2432S028.h"`
 to your source code.
 
 https://github.com/lovyan03/LovyanGFX/
