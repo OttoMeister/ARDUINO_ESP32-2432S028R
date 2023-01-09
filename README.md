@@ -37,6 +37,15 @@ Tools -> Port -> /dev/ttyACM0 auswählen -> OK <br>
 -PSRAM : “Disabled” <br>
 -Upload Speed: “921600” (Win) <br>
 
+
+## Prepear LovyanGFX Libary
+Copy lgfx_ESP32_2432S028.h to yout local dirctrory and include `#include "lgfx_ESP32_2432S028.h"`
+to your source code.
+
+https://github.com/lovyan03/LovyanGFX/
+https://github-com.translate.goog/lovyan03/LovyanGFX/blob/master/examples/HowToUse/1_simple_use/1_simple_use.ino?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=de&_x_tr_pto=wapp
+https://github-com.translate.goog/lovyan03/LovyanGFX/blob/master/examples/HowToUse/3_fonts/3_fonts.ino?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=de&_x_tr_pto=wapp
+
 ## Prepear TFT_eSPI Libary
 Copy this in ~/Arduino/libraries/TFT_eSPI/User_Setup.h <br>
 ```
@@ -74,3 +83,7 @@ find ~/Arduino/Life_Game*
 ```  
 Menü -> File -> Open -> Life_Game_ESP32_2432S028 -> Life_Game_ESP32_2432S028.ino <br>
 Compile und Upload -> BINGO <br>
+
+## To do
+
+Touch screen is not working with TFT_eSPI Libary. Sadly :(
