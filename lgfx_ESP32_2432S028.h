@@ -1,4 +1,5 @@
 // https://github.com/lovyan03/LovyanGFX/blob/master/examples/HowToUse/2_user_setting/2_user_setting.ino
+
 class LGFX : public lgfx::LGFX_Device {
   lgfx::Panel_ILI9341 _panel_instance;
   lgfx::Bus_SPI _bus_instance;
@@ -58,7 +59,7 @@ public:
       auto cfg = _touch_instance.config();
       cfg.x_min = 300;          // minimum X value (raw value) obtained from the touchscreen
       cfg.x_max = 3900;         // maximum X value from touchscreen (raw value)
-      cfg.y_min = 200;          // smallest Y value (raw value) obtained from the touchscreen
+      cfg.y_min = 180;          // smallest Y value (raw value) obtained from the touchscreen
       cfg.y_max = 3700;         // maximum Y value from touchscreen (raw value)
       cfg.pin_int = 36;         // pin number where INT is connected, TP IRQ
       cfg.bus_shared = false;   // set to true if using a common bus with the screen
@@ -68,7 +69,7 @@ public:
       cfg.freq = 1000000;        // Set SPI clock
       cfg.pin_sclk = 25;         // pin number where SCLK is connected, TP CLK
       cfg.pin_mosi = 32;         // pin number where MOSI is connected, TP DIN
-      cfg.pin_miso = 39;         // pin number where MISO is connected, TP DOUT
+      cfg.pin_miso = 39;         // pin number Vwhere MISO is connected, TP DOUT
       cfg.pin_cs = 33;           // pin number where CS is connected, TP CS
       _touch_instance.config(cfg);
       _panel_instance.setTouch(&_touch_instance);  // set the touch screen to the panel.
