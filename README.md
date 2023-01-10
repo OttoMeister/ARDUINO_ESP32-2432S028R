@@ -2,9 +2,9 @@
 ESP32 with 2.8inch 240*320 LCD TFT Module and Touch 
 
 ## General Information
-https://www.aliexpress.com/item/1005004502250619.html <br>
-https://macsbug.wordpress.com/2022/08/17/esp32-2432s028/ <br>
-Info Files "2.8inch_ESP32-2432S028R.zip" from download link: "http://www.jczn1688.com/zlxz" 
+`https://www.aliexpress.com/item/1005004502250619.html `<br>
+`https://macsbug.wordpress.com/2022/08/17/esp32-2432s028/` <br>
+Info Files "2.8inch_ESP32-2432S028R.zip" from download link: `http://www.jczn1688.com/zlxz`
 with passwort: "jczn1688" <br>
 
 ## How to install ARDUINO IDE 2.0.3 with ESP32 support on Linux
@@ -42,9 +42,9 @@ Tools -> Port -> /dev/ttyACM0 auswählen -> OK <br>
 Copy lgfx_ESP32_2432S028.h to your local dirctrory and include `#include "lgfx_ESP32_2432S028.h"`
 to your source code. 
 
-https://github.com/lovyan03/LovyanGFX/ <br>
-https://github-com.translate.goog/lovyan03/LovyanGFX/blob/master/examples/HowToUse/1_simple_use/1_simple_use.ino?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=de&_x_tr_pto=wapp <br>
-https://github-com.translate.goog/lovyan03/LovyanGFX/blob/master/examples/HowToUse/3_fonts/3_fonts.ino?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=de&_x_tr_pto=wapp <br>
+`https://github.com/lovyan03/LovyanGFX/` <br>
+`https://github-com.translate.goog/lovyan03/LovyanGFX/blob/master/examples/HowToUse/1_simple_use/1_simple_use.ino?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=de&_x_tr_pto=wapp` <br>
+`https://github-com.translate.goog/lovyan03/LovyanGFX/blob/master/examples/HowToUse/3_fonts/3_fonts.ino?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=de&_x_tr_pto=wapp` <br>
 
 ## Prepear TFT_eSPI Libary
 Touch screen is not working with TFT_eSPI Lib. Sadly :(
