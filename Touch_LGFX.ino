@@ -5,11 +5,10 @@
 #define LGFX_USE_V1
 #include <LovyanGFX.hpp>
 #include "lgfx_ESP32_2432S028.h"
-
-uint16_t trX = 0, trY = 0, tX = 0, tY = 0, tZ = 0;
-uint32_t chipId = 0;
 #define MAX_X 319
 #define MAX_Y 239
+uint16_t trX = 0, trY = 0, tX = 0, tY = 0, tZ = 0;
+uint32_t chipId = 0;
 static LGFX lcd;  // Create an instance of LGFX.
 //static LGFX_Sprite sprite (&lcd; // Create an instance of LGFX_Sprite when using a sprite.
 
@@ -35,14 +34,11 @@ void setup(void) {
 
 void loop() {
   tZ = lcd.getTouch(&tX, &tY);
-  if (tX < 0 || tX > MAX_X * 2) tX = 0;
+  if (tX < 0 || tX > MAX_X * 2) tX = 0; //Why I have to do that?
   if (tX > MAX_X && tX < MAX_Y * 2) tX = MAX_Y;
   if (tY < 0 || tY > MAX_Y * 2) tY = 0;
   if (tY > MAX_Y && tY < MAX_Y * 2) tY = MAX_Y;
-
-
   lcd.getTouchRaw(&trX, &trY);
-
   Serial.printf("tX:%d,tY:%d,trX:%d,trY:%d\n", tX, tY, trX, trY);
   lcd.setCursor(0, 0);
   lcd.printf("tX=%d  \ntY=%d  \ntZ=%d  \ntrX=%d  \ntrY=%d  ", tX, tY, tZ, trX, trY);
