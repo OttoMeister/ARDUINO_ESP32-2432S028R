@@ -34,8 +34,7 @@ void setup(void) {
 }
 
 void loop() {
-  tZ = lcd
-         .getTouch(&tX, &tY);
+  tZ = lcd.getTouch(&tX, &tY);
   if (tX < 0 || tX > MAX_X * 2) tX = 0;
   if (tX > MAX_X && tX < MAX_Y * 2) tX = MAX_Y;
   if (tY < 0 || tY > MAX_Y * 2) tY = 0;
