@@ -74,6 +74,7 @@ Copy this in ~/Arduino/libraries/TFT_eSPI/User_Setup.h <br>
 #define SPI_READ_FREQUENCY  20000000
 #define SPI_TOUCH_FREQUENCY  2500000
 ```
+check out here: `https://github.com/Bodmer/TFT_eSPI`  <br>
 ## Load first Example
 ```
 wget https://macsbug.files.wordpress.com/2022/08/life_game_esp32_2432s028.zip_-1.pdf -O tmp.zip 
