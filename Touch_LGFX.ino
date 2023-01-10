@@ -2,9 +2,6 @@
 // Landscape - The screen's aspect ratio has a width greater than the height.
 // X=0 (width) and Y=0 (hight) is on the upper left.
 
-
-
-
 #define LGFX_USE_V1
 #include <LovyanGFX.hpp>
 #include "lgfx_ESP32_2432S028.h"
@@ -15,8 +12,6 @@ uint32_t chipId = 0;
 #define MAX_Y 239
 static LGFX lcd;  // Create an instance of LGFX.
 //static LGFX_Sprite sprite (&lcd; // Create an instance of LGFX_Sprite when using a sprite.
-
-
 
 void setup(void) {
   Serial.begin(115200);
