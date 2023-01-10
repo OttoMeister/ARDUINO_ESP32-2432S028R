@@ -42,9 +42,9 @@ Tools -> Port -> /dev/ttyACM0 auswählen -> OK <br>
 Copy lgfx_ESP32_2432S028.h to your local dirctrory and include `#include "lgfx_ESP32_2432S028.h"`
 to your source code. 
 
-`https://github.com/lovyan03/LovyanGFX/` <br>
-`https://github-com.translate.goog/lovyan03/LovyanGFX/blob/master/examples/HowToUse/1_simple_use/1_simple_use.ino?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=de&_x_tr_pto=wapp` <br>
-`https://github-com.translate.goog/lovyan03/LovyanGFX/blob/master/examples/HowToUse/3_fonts/3_fonts.ino?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=de&_x_tr_pto=wapp` <br>
+`https://github.com/lovyan03/LovyanGFX/` 
+`https://github-com.translate.goog/lovyan03/LovyanGFX/blob/master/examples/HowToUse/1_simple_use/1_simple_use.ino?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=de&_x_tr_pto=wapp` 
+`https://github-com.translate.goog/lovyan03/LovyanGFX/blob/master/examples/HowToUse/3_fonts/3_fonts.ino?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=de&_x_tr_pto=wapp` 
 
 ## Prepear TFT_eSPI Libary
 Touch screen is not working with TFT_eSPI Lib. Sadly :(
