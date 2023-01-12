@@ -72,6 +72,12 @@ Copy this in ~/Arduino/libraries/TFT_eSPI/User_Setup.h <br>
 #define SMOOTH_FONT
 #define SPI_FREQUENCY  55000000 
 #define SPI_READ_FREQUENCY  20000000
+//Touch Screen: ?????????ß
+#define XPT2046_IRQ 36
+#define XPT2046_MOSI 32
+#define XPT2046_MISO 39
+#define XPT2046_CLK 25
+#define XPT2046_CS 33
 #define SPI_TOUCH_FREQUENCY  2500000
 ```
 check out here: `https://github.com/Bodmer/TFT_eSPI`  <br>
