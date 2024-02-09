@@ -15,7 +15,7 @@ const char* metar = "https://aviationweather.gov/api/data/metar?ids=KDEN&format=
 WiFiUDP ntpUDP;
 NTPClient timeClient(ntpUDP);
 int wifiTimeOutCounter = 0;
-#define TIMEOFFSET -3600 * 5  // no daylight saving time 5h offset to UTC
+#define TIMEOFFSET -3600 * 5  // no daylight saving time but 5h offset to UTC
 
 // init parameter for iniversum simulation
 int const n = 5, m = 200;
