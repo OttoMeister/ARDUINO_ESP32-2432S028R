@@ -50,7 +50,7 @@ Select Board and Port -> ESP32 Dev Module
 
 ## Prepear LovyanGFX Libary
 Copy lgfx_ESP32_2432S028.h to your local dirctrory and include `#include "lgfx_ESP32_2432S028.h"`
-to your source code. 
+to your source code. Right now, there is only one example using this libary
 
 ## Prepear TFT_eSPI Libary
 Copy this in ~/Arduino/libraries/TFT_eSPI/User_Setup.h <br>
