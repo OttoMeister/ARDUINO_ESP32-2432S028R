@@ -9,13 +9,13 @@
 // prepear WifFi
 const char* ssid = "xxxxxxxx";            // Replace with your
 const char* password = "xxxxxxxxx";       // WiFi credentials
-// search next airport here and get your ICAO code
-// "https://en.wikipedia.org/wiki/Lists_of_airports_by_IATA_and_ICAO_code"
+// search your next airport here and get the ICAO code
+// "https://en.wikipedia.org/wiki/ICAO_airport_code"
 const char* metar = "https://aviationweather.gov/api/data/metar?ids=KDEN&format=json"; // KDEN = ICAO code for Dever
 WiFiUDP ntpUDP;
 NTPClient timeClient(ntpUDP);
 int wifiTimeOutCounter = 0;
-#define TIMEOFFSET -3600 * 5  // no daylight saving time
+#define TIMEOFFSET -3600 * 5  // no daylight saving time 5h offset to UTC
 
 // init parameter for iniversum simulation
 int const n = 5, m = 200;
