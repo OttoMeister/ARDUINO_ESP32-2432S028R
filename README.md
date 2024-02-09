@@ -20,13 +20,11 @@ chmod u+x ~/Schreibtisch/arduino-ide_2.0.3_Linux_64bit.AppImage
 ```
 
 ## Install Arduino IDE 2.3.0 on Windows 
-
 Download from here:
 ```
 https://downloads.arduino.cc/arduino-ide/arduino-ide_2.3.0_Windows_64bit.exe
 ```
 Start the installer, klick yes to everything.
-
 
 Settings in Arduino IDE:<br>
 Menü -> File -> Preferences -> Language -> English <br>
@@ -50,17 +48,11 @@ Select Board and Port -> ESP32 Dev Module
 -PSRAM : “Disabled” <br>
 -Upload Speed: “921600”  <br>
 
-
 ## Prepear LovyanGFX Libary
 Copy lgfx_ESP32_2432S028.h to your local dirctrory and include `#include "lgfx_ESP32_2432S028.h"`
 to your source code. 
-```
-https://github.com/lovyan03/LovyanGFX/  
-https://github-com.translate.goog/lovyan03/LovyanGFX/blob/master/examples/HowToUse/1_simple_use/1_simple_use.ino?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=de&_x_tr_pto=wapp
-https://github-com.translate.goog/lovyan03/LovyanGFX/blob/master/examples/HowToUse/3_fonts/3_fonts.ino?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=de&_x_tr_pto=wapp
-```
+
 ## Prepear TFT_eSPI Libary
-Touch screen is not working with TFT_eSPI Lib. Sadly :(
 Copy this in ~/Arduino/libraries/TFT_eSPI/User_Setup.h <br>
 ```
 #define ILI9341_2_DRIVER    
@@ -93,7 +85,6 @@ Copy this in ~/Arduino/libraries/TFT_eSPI/User_Setup.h <br>
 #define XPT2046_CS 33
 #define SPI_TOUCH_FREQUENCY  2500000
 ```
-check out here: `https://github.com/Bodmer/TFT_eSPI`  <br>
 ## Load first Example
 ```
 wget https://macsbug.files.wordpress.com/2022/08/life_game_esp32_2432s028.zip_-1.pdf -O tmp.zip 
