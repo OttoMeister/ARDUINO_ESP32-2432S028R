@@ -3,7 +3,6 @@ ESP32 with 2.8inch 240*320 LCD TFT Module and Touch
 
 ![Unbenannt](https://github.com/OttoMeister/ARDUINO_ESP32-2432S028R/assets/12480979/11216454-3f5b-4595-b2d6-9a5257635b39)
 
-
 ## General Information
 `https://www.aliexpress.com/item/1005004502250619.html `<br>
 `https://macsbug.wordpress.com/2022/08/17/esp32-2432s028/` <br>
@@ -19,18 +18,29 @@ mv arduino-ide_2.0.3_Linux_64bit.AppImage ~/Schreibtisch
 chmod u+x ~/Schreibtisch/arduino-ide_2.0.3_Linux_64bit.AppImage
 ~/Schreibtisch/arduino-ide_2.0.3_Linux_64bit.AppImage & disown
 ```
+
+## Install Arduino IDE 2.3.0 on Windows 
+
+Download from here:
+```
+https://downloads.arduino.cc/arduino-ide/arduino-ide_2.3.0_Windows_64bit.exe
+```
+Start the installer, klick yes to everything.
+
+
 Settings in Arduino IDE:<br>
 Menü -> File -> Preferences -> Language -> English <br>
 Menü -> File -> Preferences -> Show verbose output during compile und upload -> check <br>
 Menü -> File -> Preferences -> Compiler warnings -> Default <br>
 Menü -> File -> Preferences -> Additional URLs -> `https://dl.espressif.com/dl/package_esp32_index.json` <br>
 Menü -> File -> Preferences -> OK <br>
-Libary Manager -> TFT_eSPI -> Suchen und Installieren TFT_eSPI by Bodmer <br>
-Libary Manager -> TFT_eSPI -> Suchen und Installieren LovyanGFX by lovyan03 <br>
-Libary Manager -> TFT_eSPI -> Suchen und Installieren NTPClient by Fabrice Weinberg <br>
-Bords Manager -> ESP32 suchen und esp32 by Espressif Sytems instalieren <br>
-Tools -> Board -> esp32 -> ESP32_DEV_Module auswählen <br>
-Tools -> Port -> /dev/ttyACM0 auswählen -> OK <br>
+Libary Manager -> TFT_eSPI -> search and install: TFT_eSPI by Bodmer ver 2.5.34 <br>
+Libary Manager -> TFT_eSPI -> search and install: LovyanGFX by lovyan03 ver 1.1.12 <br>
+Libary Manager -> TFT_eSPI -> search and install: NTPClient by F.Weinberg ver 3.2.1 <br>
+Libary Manager -> TFT_eSPI -> search and install: HTTPClient by A.McEwen ver 2.2.0 <br>
+Libary Manager -> TFT_eSPI -> search and install: ArduinoJson.h by B.Blanchon ver 7.0.3 <br>
+Bords Manager -> ESP32 search and install esp32 by Espressif Sytems instalieren <br>
+Select Board and Port -> ESP32 Dev Module
 -CPU Frequency : “240MHz (WiFi/BT)” <br>
 -Core Degug Level : “Verbose” <br>
 -Flash Frequency : “80MHz” <br>
@@ -38,7 +48,7 @@ Tools -> Port -> /dev/ttyACM0 auswählen -> OK <br>
 -Flash Size : “4MB (32Mb)” <br>
 -Partition Scheme : “Default 4MB with spiffs (1.2MB APP/1.5MB SPIFFS)” <br>
 -PSRAM : “Disabled” <br>
--Upload Speed: “921600” (Win) <br>
+-Upload Speed: “921600”  <br>
 
 
 ## Prepear LovyanGFX Libary
