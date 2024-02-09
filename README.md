@@ -83,7 +83,7 @@ Copy this in ~/Arduino/libraries/TFT_eSPI/User_Setup.h <br>
 #define XPT2046_CS 33
 #define SPI_TOUCH_FREQUENCY  2500000
 ```
-## Load first Example
+## Load first Example under Linux
 ```
 wget https://macsbug.files.wordpress.com/2022/08/life_game_esp32_2432s028.zip_-1.pdf -O tmp.zip 
 unzip -o tmp.zip Life_Game_ESP32_2432S028/lgfx_ESP32_2432S028.h Life_Game_ESP32_2432S028/Life_Game_ESP32_2432S028.ino -d ~/Arduino/ 
