@@ -7,9 +7,11 @@
 #include <ArduinoJson.h>  // by B.Blanchon ver 7.0.3
 
 // prepear WifFi
-const char* ssid = "xxxxxxxx";                                                           // Replace with your
-const char* password = "xxxxxxxxx";                                                    // WiFi credentials
-const char* metar = "https://aviationweather.gov/api/data/metar?ids=KDEN&format=json"; // KDEN = Dever
+const char* ssid = "xxxxxxxx";            // Replace with your
+const char* password = "xxxxxxxxx";       // WiFi credentials
+// search next airport here and get your ICAO code
+// "https://en.wikipedia.org/wiki/Lists_of_airports_by_IATA_and_ICAO_code"
+const char* metar = "https://aviationweather.gov/api/data/metar?ids=KDEN&format=json"; // KDEN = ICAO code for Dever
 WiFiUDP ntpUDP;
 NTPClient timeClient(ntpUDP);
 int wifiTimeOutCounter = 0;
