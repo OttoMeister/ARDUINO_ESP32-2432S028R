@@ -6,8 +6,6 @@ ESP32 with 2.8inch 240*320 LCD TFT Module and Touch
 ## General Information
 `https://www.aliexpress.com/item/1005004502250619.html `<br>
 `https://macsbug.wordpress.com/2022/08/17/esp32-2432s028/` <br>
-Info Files "2.8inch_ESP32-2432S028R.zip" from download link: `http://www.jczn1688.com/zlxz`
-with passwort: "jczn1688" <br>
 
 ## How to install ARDUINO IDE 2.0.3 with ESP32 support on Linux
 erase all old traces, then download, install and start it
