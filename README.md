@@ -31,7 +31,6 @@ Menü -> File -> Preferences -> Compiler warnings -> Default <br>
 Menü -> File -> Preferences -> Additional URLs -> `https://dl.espressif.com/dl/package_esp32_index.json` <br>
 Menü -> File -> Preferences -> OK <br>
 Libary Manager -> TFT_eSPI -> search and install: TFT_eSPI by Bodmer ver 2.5.34 <br>
-Libary Manager -> TFT_eSPI -> search and install: LovyanGFX by lovyan03 ver 1.1.12 <br>
 Libary Manager -> TFT_eSPI -> search and install: NTPClient by F.Weinberg ver 3.2.1 <br>
 Libary Manager -> TFT_eSPI -> search and install: HTTPClient by A.McEwen ver 2.2.0 <br>
 Libary Manager -> TFT_eSPI -> search and install: ArduinoJson.h by B.Blanchon ver 7.0.3 <br>
