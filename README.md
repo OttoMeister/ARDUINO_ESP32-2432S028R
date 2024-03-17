@@ -1,4 +1,4 @@
-# ARDUINO IDE 2.0.3 mit ESP32-2432S028
+# ARDUINO IDE 2.0.3 mit ESP32-2432S028R
 ESP32 with 2.8inch 240*320 LCD TFT Module and Touch 
 
 ![Unbenannt](https://github.com/OttoMeister/ARDUINO_ESP32-2432S028R/assets/12480979/11216454-3f5b-4595-b2d6-9a5257635b39)
