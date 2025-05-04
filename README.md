@@ -25,7 +25,7 @@ pio settings set check_platformio_interval 9999
 git clone https://github.com/OttoMeister/ARDUINO_ESP32-2432S028R
 cd ARDUINO_ESP32-2432S028R/
 platformio run 
-platformio run  --upload-port  /dev/ttyUSB0 -t upload
+platformio run --upload-port  /dev/ttyUSB0 -t upload
 platformio run --monitor-port /dev/ttyUSB0 -t monitor
 ```
 
