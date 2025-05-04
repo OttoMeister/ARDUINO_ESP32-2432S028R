@@ -4,8 +4,10 @@ ESP32 with 2.8inch 240*320 LCD TFT Module and Touch
 ![Unbenannt](https://github.com/OttoMeister/ARDUINO_ESP32-2432S028R/assets/12480979/11216454-3f5b-4595-b2d6-9a5257635b39)
 
 ## General Information
-`https://www.aliexpress.com/item/1005004502250619.html `<br>
+`https://www.aliexpress.com/item/1005004502250619.html` <br>
+`https://www.aliexpress.com/item/1005004961285750.html` <br>
 `https://macsbug.wordpress.com/2022/08/17/esp32-2432s028/` <br>
+`https://www.makerfabs.com/sunton-esp32-2-8-inch-tft-with-touch.html` <br>
 <br>
 Thanks to the efforts of these individuals and many others, programming on Suntown displays has become very easy. 
 <br>
