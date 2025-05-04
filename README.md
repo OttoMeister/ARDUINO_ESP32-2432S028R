@@ -7,8 +7,8 @@ ESP32 with 2.8inch 240*320 LCD TFT Module and Touch
 `https://www.aliexpress.com/item/1005004502250619.html `<br>
 `https://macsbug.wordpress.com/2022/08/17/esp32-2432s028/` <br>
 <br>
-Thanks to the efforts of these individuals and many others, programming on Suntown displays has become very easy. H
-<br><br>
+Thanks to the efforts of these individuals and many others, programming on Suntown displays has become very easy. 
+<br>
 https://github.com/rzeldent/esp32-smartdisplay<br>
 https://github.com/rzeldent/platformio-espressif32-sunton<br>
 https://github.com/lvgl/lv_port_esp32<br>
