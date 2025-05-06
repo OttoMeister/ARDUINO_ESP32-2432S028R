@@ -71,7 +71,7 @@ mkdir cp210x
 tar -xf cp210x.zip -C cp210x
 start /wait cp210x\CP210xVCPInstaller_x64.exe /S
 ```
-Install CH340 (WCH) Chips
+Install CH340 (WCH) driver:
 ```
 cd %USERPROFILE%\Desktop
 curl -L --fail -o CH341SER.exe https://www.wch.cn/download/file?id=65  --silent
