@@ -16,6 +16,9 @@ https://github.com/rzeldent/platformio-espressif32-sunton<br>
 https://github.com/lvgl/lv_port_esp32<br>
 https://github.com/platformio/platformio-core<br>
 https://github.com/witnessmenow/ESP32-Cheap-Yellow-Display<br>
+<br>
+Here, I used the ESP32-2432S028R to create a small demo project featuring WiFi, METAR (Meteorological Aerodrome Report) weather data, and NTP time. 
+
 
 ## Install PlatformIO on Linux (no IDE)
 ```
