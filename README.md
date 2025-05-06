@@ -38,4 +38,51 @@ platformio run
 platformio run --upload-port  /dev/ttyUSB0 -t upload
 platformio run --monitor-port /dev/ttyUSB0 -t monitor
 ```
+## Install PlatformIO on Win11 (no IDE)
+Windows Command Prompt <br>
+Install Python:
+```
+winget install Python.Python.3.13
+REM Restart Windows Command Prompt 
+python -V
+python.exe -m pip install --upgrade pip
+```
+Install Git:
+```
+winget install git.git
+REM restart Windows Command Prompt 
+git --version
+```
+Install PlatformIO:
+```
+pip install platformio
+pio --version
+pio settings set enable_telemetry no
+pio settings set check_platformio_interval 9999
+```
+Install CP210x driver:
+```
+cd %USERPROFILE%\Desktop
+curl -L --fail -o cp210x.zip https://www.silabs.com/documents/public/software/CP210x_Windows_Drivers.zip --silent
+mkdir cp210x
+tar -xf cp210x.zip -C cp210x
+start /wait cp210x\CP210xVCPInstaller_x64.exe /S
+```
+Install CH340 (WCH) Chips
+```
+cd %USERPROFILE%\Desktop
+curl -L --fail -o CH341SER.exe https://www.wch.cn/download/file?id=65  --silent
+start /wait CH341SER.exe /S
+```
+## Compile with PlatformIO on Win11
+```
+cd %USERPROFILE%\Desktop
+git clone https://github.com/OttoMeister/ARDUINO_ESP32-2432S028R
+cd ARDUINO_ESP32-2432S028R/
+platformio run 
+platformio run --upload-port  COM1 -t upload
+platformio run --monitor-port COM1 -t monitor
+```
+
+
 
