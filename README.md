@@ -35,8 +35,8 @@ pio settings set check_platformio_interval 9999
 ```
 ## Compile with PlatformIO on Linux
 ```
-git clone https://github.com/OttoMeister/ARDUINO_ESP32-2432S028R
-cd ARDUINO_ESP32-2432S028R/
+git clone https://github.com/OttoMeister/ESP32-2432S028R
+cd ESP32-2432S028R/
 platformio run 
 platformio run --upload-port  /dev/ttyUSB0 -t upload
 platformio run --monitor-port /dev/ttyUSB0 -t monitor
@@ -80,8 +80,8 @@ start /wait CH341SER.exe /S
 ## Compile with PlatformIO on Win10-11
 ```
 cd %USERPROFILE%\Desktop
-git clone https://github.com/OttoMeister/ARDUINO_ESP32-2432S028R
-cd ARDUINO_ESP32-2432S028R/
+git clone https://github.com/OttoMeister/ESP32-2432S028R
+cd ESP32-2432S028R/
 platformio run 
 platformio run --upload-port  COM1 -t upload
 platformio run --monitor-port COM1 -t monitor
