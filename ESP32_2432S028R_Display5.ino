@@ -1,5 +1,4 @@
 // ESP32-2432S028R, 2.8 inch, 240*320, LCD TFT Module with Touch 
-// ARDUINO IDE 2.2.1 
 
 #include <TFT_eSPI.h>     // by Bodmer ver 2.5.34
 #include <NTPClient.h>    // by F.Weinberg ver 3.2.1
