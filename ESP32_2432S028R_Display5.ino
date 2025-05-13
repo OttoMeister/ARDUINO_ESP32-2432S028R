@@ -200,7 +200,7 @@ void loop() {
     spr.drawString(timeClient.getFormattedTime(), 70, 80, 6);
     spr.drawString(getFormattedDate(), 40, 130, 6);
     String outputString = String(temperature) + "C " + String(relative_humidity) + "% " + String(wind_speed_kmh) + "km/h " + String(pressure) + "hPa";
-    // print wether data only if not too old
+    // print weather data only if not too old
     if (data_age_min < 70) spr.drawString(outputString, 20, 180, 4);
     // push sprite (update screen)
     spr.pushSprite(0, 0);
