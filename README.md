@@ -26,6 +26,7 @@ curl -fsSL -o get-platformio.py https://raw.githubusercontent.com/platformio/pla
 python3 get-platformio.py
 curl -fsSL https://raw.githubusercontent.com/platformio/platformio-core/develop/platformio/assets/system/99-platformio-udev.rules | sudo tee /etc/udev/rules.d/99-platformio-udev.rules
 sudo service udev restart
+mkdir -p ~/.local/bin
 export PATH=$PATH:$HOME/.local/bin
 ln -s ~/.platformio/penv/bin/platformio ~/.local/bin/platformio
 ln -s ~/.platformio/penv/bin/pio ~/.local/bin/pio
