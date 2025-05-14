@@ -22,6 +22,7 @@ Here, I used the ESP32-2432S028R to create a small demo project featuring WiFi, 
 
 ## Install PlatformIO on Linux (no IDE)
 ```
+sudo apt install python3-venv build-essential git
 curl -fsSL -o get-platformio.py https://raw.githubusercontent.com/platformio/platformio-core-installer/master/get-platformio.py
 python3 get-platformio.py
 curl -fsSL https://raw.githubusercontent.com/platformio/platformio-core/develop/platformio/assets/system/99-platformio-udev.rules | sudo tee /etc/udev/rules.d/99-platformio-udev.rules
